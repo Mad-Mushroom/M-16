@@ -56,7 +56,7 @@ ToDo
 		- [ ] VRR
 		- [ ] RET
 		- [ ] EXR
-- [ ] GitHub
+- [X] GitHub
 	- [X] repo
 	- [X] first commit
 	- [ ] license
