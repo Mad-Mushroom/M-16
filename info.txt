@@ -98,11 +98,11 @@ Instruction: 0x0000000000
 		[ ] VRR
 		[ ] RET
 		[ ] EXR
-[ ] GitHub
-	[ ] repo
-	[ ] first commit
+[*] GitHub
+	[X] repo
+	[X] first commit
 	[ ] license
-	[ ] readme
+	[ ] good readme
 	[ ] wiki
 [ ] Other
 	[ ] Documentation
