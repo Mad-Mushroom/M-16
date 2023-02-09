@@ -51,10 +51,10 @@ Instruction: 0x0000000000
 == ToDo ==
 
 [ ] info.txt
-[ ] Assembler
-	[ ] create project
-	[ ] file reading
-	[ ] parse
+[*] Assembler
+	[X] create project
+	[X] file reading
+	[X] parse
 	[ ] compile
 	[ ] output file
 [ ] Emulator

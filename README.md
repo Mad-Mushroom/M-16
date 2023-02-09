@@ -8,10 +8,10 @@ A custom 16-Bit CPU made in Logisim.
 ToDo
 ---------------------------------------------------
 - [ ] info.txt
-- [ ] Assembler
-	- [ ] create project
-	- [ ] file reading
-	- [ ] parse
+- [X] Assembler
+	- [X] create project
+	- [X] file reading
+	- [X] parse
 	- [ ] compile
 	- [ ] output file
 - [ ] Emulator

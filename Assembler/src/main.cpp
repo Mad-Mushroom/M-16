@@ -10,13 +10,21 @@ void Err(string ErrMsg){
 	cout << ErrMsg << endl;
 }
 
+void assemble(){
+	prepairFile(fileName);
+	compileFromParsed();
+}
+
 int main(int argc, char* argv[]){
 	if((argc-1) > 0){
 		//cout << argv[1] << endl;
 		fileName = argv[1];
-		prepairFile(fileName);
+		assemble();
 	}else{
-		Err("No Argument");
+		cout << "File? ";
+		cin >> fileName;
+		cout << "" << endl;
+		assemble();
 	}
 	return 0;
 }
