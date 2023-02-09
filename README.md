@@ -55,6 +55,7 @@ ToDo
 		- [ ] VRM
 		- [ ] VRR
 		- [ ] RET
+		- [ ] INT
 		- [ ] EXR
 - [X] GitHub
 	- [X] repo

@@ -98,6 +98,7 @@ Instruction: 0x0000000000
 		[ ] VRM
 		[ ] VRR
 		[ ] RET
+		[ ] INT
 		[ ] EXR
 [*] GitHub
 	[X] repo
