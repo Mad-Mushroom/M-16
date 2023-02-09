@@ -4,6 +4,9 @@ A custom 16-Bit CPU made in Logisim.
 
 *I know Logisim is not a professionel Software.*
 
+Info
+--------------------------------------------------
+*No info yet.*
 
 ToDo
 ---------------------------------------------------
