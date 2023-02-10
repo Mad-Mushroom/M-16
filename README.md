@@ -17,8 +17,8 @@ ToDo
 	- [X] parse
 	- [X] compile
 	- [X] output file
-- [ ] Emulator
-	- [ ] create project
+- [X] Emulator
+	- [X] create project
 	- [ ] file reading
 	- [ ] parse hex file
 	- [ ] executing
