@@ -16,7 +16,7 @@ void assemble(){
 }
 
 int main(int argc, char* argv[]){
-	bool deleteFile = true;
+	bool deleteFile = false;
 	if((argc-1) > 0){
 		//cout << argv[1] << endl;
 		fileName = argv[1];
