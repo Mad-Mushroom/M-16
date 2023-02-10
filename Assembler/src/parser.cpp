@@ -31,9 +31,16 @@ void prepairFile(string fileName){
 			//cout << newInp << endl;
 			writeToFile(newInp);
 		}
-		//if(inp.find(' ') != string::npos){
-		//	isComment = true;
-		//}
+		if(inp.find(' ') != string::npos){
+			while(inp.find(' ') == 0){
+				inp = inp.substr(1, sizeof(inp));
+			}
+		}
+		if(inp.find('\t') != string::npos){
+			while(inp.find('\t') == 0){
+				inp = inp.substr(1, sizeof(inp));
+			}
+		}
 		if(isComment == false){
 			//cout << inp << endl;
 			writeToFile(inp);

@@ -16,6 +16,7 @@ void assemble(){
 }
 
 int main(int argc, char* argv[]){
+	bool deleteFile = true;
 	if((argc-1) > 0){
 		//cout << argv[1] << endl;
 		fileName = argv[1];
@@ -25,6 +26,9 @@ int main(int argc, char* argv[]){
 		cin >> fileName;
 		cout << "" << endl;
 		assemble();
+	}
+	if(deleteFile){
+		remove("assembler.tmp");
 	}
 	return 0;
 }

@@ -46,16 +46,15 @@ Instruction: 0x0000000000
 0x1B: VRR - Store Register in VRAM (Address by Register)
 0x1C: RET - return back from the last jump
 0x1D: INT - Set address to be jumped to if interrupt triggered
-0x1E: EXR - Execute Ram from specific Address (Address by value)
 
 == ToDo ==
 
-[ ] info.txt
+[X] info.txt
 [*] Assembler
 	[X] create project
 	[X] file reading
 	[X] parse
-	[ ] compile
+	[X] compile
 	[ ] output file
 [ ] Emulator
 	[ ] create project

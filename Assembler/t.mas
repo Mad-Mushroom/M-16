@@ -24,3 +24,12 @@ sin b
 sou 0x4567
 sor c
 mem d, 0xb75e
+mer c, a
+  lem a, 0xfcde
+ler b, d
+vem 0xffaf, 0xbcde
+   ver d, 0xbce5
+vrm a, 0xfffa
+ vrr b, a
+		ret
+int decrement 
