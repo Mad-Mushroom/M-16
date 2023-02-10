@@ -102,7 +102,7 @@ Instruction: 0x0000000000
 [*] GitHub
 	[X] repo
 	[X] first commit
-	[ ] license
+	[X] license
 	[ ] good readme
 	[ ] wiki
 [ ] Other

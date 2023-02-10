@@ -63,7 +63,7 @@ ToDo
 - [X] GitHub
 	- [X] repo
 	- [X] first commit
-	- [ ] license
+	- [X] license
 	- [ ] good readme
 	- [ ] wiki
 - [ ] Other
