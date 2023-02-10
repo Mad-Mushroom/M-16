@@ -10,13 +10,13 @@ Info
 
 ToDo
 ---------------------------------------------------
-- [ ] info.txt
+- [X] info.txt
 - [X] Assembler
 	- [X] create project
 	- [X] file reading
 	- [X] parse
-	- [ ] compile
-	- [ ] output file
+	- [X] compile
+	- [X] output file
 - [ ] Emulator
 	- [ ] create project
 	- [ ] file reading
