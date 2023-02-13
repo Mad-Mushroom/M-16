@@ -16,36 +16,36 @@
 
 Instruction: 0x0000000000
 
-0x00: NOP - nop           - No operation
-0x01: HLT - hlt           - Halt the CPU
-0x02: ADD - add a, 0x0001 - Adds Register by Value
-0x03: ADR - add a, b      - Adds Register by Register
-0x04: DEC - dec a, 0x0001 - Decrement Register by Value
-0x05: DER - der a, b      - Decrement Register by Register
-0x06: SET - set a, 0x0001 - Set Register to Value
-0x07: JMP - jmp 0x00001   - Jump to other Part of Program
-0x08: JMR - jmr a         - Jump with Address from Register
-0x09: JMZ - jmz 0x0001    - Jump if zero
-0x0A: JMO - jmo 0x0001    - Jump if overflow
-0x0B: CMP - cmp a, 0x0001 - Compare Register to Value
-0x0C: CMR - cmr a, b      - Compare Register to Register
-0x0D: JE  - je 0x0001     - Jump if Compare succeeded
-0x0E: INB - Take Input
-0x0F: OUB - Output Value
-0x10: OUR - Output Register
-0x11: SIN - Take Input from the second input
-0x12: SOU - Output Value on the second output
-0x13: SOR - Output Register on second output
-0x14: MEM - Store Register in RAM (Address by Value)
-0x15: MER - Store Register in RAM (Address by Register)
-0x16: LEM - Load Value from RAM (Address by Value)
-0x17: LER - Load Value from RAM (Address by Register)
-0x18: VEM - Store value in VRAM (Address by Value)
-0x19: VER - Store value in VRAM (Address by Register)
-0x1A: VRM - Store Register in VRAM (Address by Value)
-0x1B: VRR - Store Register in VRAM (Address by Register)
-0x1C: RET - return back from the last jump
-0x1D: INT - Set address to be jumped to if interrupt triggered
+0x00: NOP - nop                - No operation
+0x01: HLT - hlt                - Halt the CPU
+0x02: ADD - add a, 0x0001      - Adds Register by Value
+0x03: ADR - add a, b           - Adds Register by Register
+0x04: DEC - dec a, 0x0001      - Decrement Register by Value
+0x05: DER - der a, b           - Decrement Register by Register
+0x06: SET - set a, 0x0001      - Set Register to Value
+0x07: JMP - jmp 0x00001        - Jump to other Part of Program
+0x08: JMR - jmr a              - Jump with Address from Register
+0x09: JMZ - jmz 0x0001         - Jump if zero
+0x0A: JMO - jmo 0x0001         - Jump if overflow
+0x0B: CMP - cmp a, 0x0001      - Compare Register to Value
+0x0C: CMR - cmr a, b           - Compare Register to Register
+0x0D: JE  - je 0x0001          - Jump if Compare succeeded
+0x0E: INB - inb a              - Take Input
+0x0F: OUB - oub 0x0001         - Output Value
+0x10: OUR - our a              - Output Register
+0x11: SIN - sin a              - Take Input from the second input
+0x12: SOU - sou 0x0001         - Output Value on the second output
+0x13: SOR - sor a              - Output Register on second output
+0x14: MEM - mem a, 0x0001      - Store Register in RAM (Address by Value)
+0x15: MER - mer a, b           - Store Register in RAM (Address by Register)
+0x16: LEM - lem a, 0x0001      - Load Value from RAM (Address by Value)
+0x17: LER - ler a, b           - Load Value from RAM (Address by Register)
+0x18: VEM - vem 0x0001, 0x0001 - Store value in VRAM (Address by Value)
+0x19: VER - ver 0x0001, a      - Store value in VRAM (Address by Register)
+0x1A: VRM - vrm a, 0x0001      - Store Register in VRAM (Address by Value)
+0x1B: VRR - vrr a, b           - Store Register in VRAM (Address by Register)
+0x1C: RET - ret                - return back from the last jump
+0x1D: INT - int 0x0001         - Set address to be jumped to if interrupt triggered
 
 == ToDo ==
 
